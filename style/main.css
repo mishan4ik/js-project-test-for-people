@@ -1,0 +1,114 @@
+:root{
+
+	--font:'Open Sans', sans-serif;
+
+}
+.container{
+	max-width: 1200px
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+.header__textTest{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px; 
+}
+.header__textTest>h2{
+	font-family: var(--font);
+	text-transform: uppercase;
+	font-style: italic;
+	font-size:30px; 
+}
+.question{
+	text-align: center;
+	border: 1px solid black;
+	max-width: 500px;
+	display: block;
+	margin: 0px auto;
+	border-radius: 30px; 
+	
+}
+.question__text{
+	margin-top: 20px;
+}
+.question__text>h2{
+	font-family: var(--font);
+	font-size: 18px;
+	font-style: italic;
+	text-transform: uppercase;
+}
+.choice{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.choice>p{
+	padding-left: 10px;
+	font-family: var(--font);
+	font-size: 15px;
+	font-weight: 500;
+
+}
+.question__choice>.choice:nth-child(3){
+	margin-left: 10px;
+}
+.question__choice>.choice:nth-child(2){
+	margin-right: 5px;
+}
+.question__choice>.choice:nth-child(4){
+	margin-left: 38px;
+}
+.question__choice>.second__choice:nth-child(1){
+	margin-left: 38px;
+}
+.question__choice>.second__choice:nth-child(2){
+	margin-left: 40px;
+}
+.question__choice>.second__choice:nth-child(3){
+	margin-left: 38px;
+}
+.question__choice>.choice_horses:nth-child(1){
+	margin-left: 25px;
+}
+.question__choice>.choice_horses:nth-child(2){
+	margin-left: 52px;
+}
+.question__choice>.choice_horses:nth-child(3){
+	margin-left: 5px;
+}
+.question__choice>.choice_iron:nth-child(1){
+	margin-right: 25px;
+}
+.question__choice>.choice_iron:nth-child(2){
+	margin-right: 25px;
+}
+.question__choice>.choice_iron:nth-child(3){
+	margin-right: 30px;
+}
+.getAnswer{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.getAnswer>input{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	font-family: var(--font);
+
+}
+.getAnswer>input[value="дать ответ"]{
+	font-family: var(--font);
+	font-size: 15px;
+	
+}
+#answer{
+	text-align: center;
+	font-family: var(--font);
+	font-size: 18px;
+}
